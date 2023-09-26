@@ -42,3 +42,7 @@ Contains answers to frequently asked questions about the app, placements, and re
 Tech Stack
 Frontend: Java
 Backend: Spring
+
+
+
+
