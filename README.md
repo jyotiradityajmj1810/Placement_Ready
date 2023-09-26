@@ -31,11 +31,14 @@ Provides questions relevant to interview rounds.
 Offers mock interview sessions to help students practice.
 Help-Desk
 
+
+
 Features a chatbot interface for general inquiries.
 Offers a separate chat window to facilitate direct communication with college-assigned faculties and industry experts.
 FAQ Section
 
 Contains answers to frequently asked questions about the app, placements, and related topics.
+
 Tech Stack
 Frontend: Java
 Backend: Spring
