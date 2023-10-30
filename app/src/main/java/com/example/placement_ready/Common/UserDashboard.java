@@ -1,8 +1,10 @@
-package com.example.placement_ready;
+package com.example.placement_ready.Common;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.placement_ready.R;
 
 public class UserDashboard extends AppCompatActivity {
 
