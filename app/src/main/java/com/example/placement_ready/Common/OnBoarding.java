@@ -78,7 +78,6 @@ public class OnBoarding extends AppCompatActivity {
         if (dots.length > 0) {
             dots[position].setTextColor(getResources().getColor(R.color.md_theme_dark_secondary));
         }
-
     }
 
     ViewPager.OnPageChangeListener changeListener = new ViewPager.OnPageChangeListener() {
