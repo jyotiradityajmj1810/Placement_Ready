@@ -12,9 +12,6 @@ import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.example.placement_ready.R;
-import com.example.placement_ready.UserDashboard;
-
-import java.security.PrivateKey;
 
 
 public class SplashScreen extends AppCompatActivity {
