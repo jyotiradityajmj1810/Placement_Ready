@@ -96,7 +96,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_below="@id/app_name"
-                    android:background="#EDE0F6"
+                    android:background="@drawable/cards"
                     android:layout_marginLeft="38dp"
                     android:layout_marginRight="38dp"
                     android:layout_marginTop="15dp"
@@ -238,6 +238,7 @@
                         android:padding="10dp">
 
                         <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/mostviewed_recylerView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -281,7 +282,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
                         android:background="@color/active"
-                        android:orientation="vertical"
+                        android:orientation="horizontal"
                         android:alpha="0.4"
                         android:padding="10dp">
 
