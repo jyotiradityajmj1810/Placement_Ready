@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.example.placement_ready.HelperClasses.SliderAdepter;
 import com.example.placement_ready.R;
+import com.example.placement_ready.User.UserDashboard;
 
 
 public class OnBoarding extends AppCompatActivity {

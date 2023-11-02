@@ -4,7 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="md_theme_light_primary">#6750A4</color>
         <color name="md_theme_light_onPrimary">#FFFFFF</color>
-        <color name="md_theme_light_primaryContainer">#EADDFF</color>
+        <color name="md_theme_light_primaryContainer">#DECCFB</color>
         <color name="md_theme_light_onPrimaryContainer">#21005D</color>
         <color name="md_theme_light_error">#B3261E</color>
         <color name="md_theme_light_onError">#FFFFFF</color>
