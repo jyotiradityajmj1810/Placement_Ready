@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/cards2"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="2dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -73,8 +73,8 @@
 
     </RelativeLayout>
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -101,7 +101,7 @@
                     android:layout_marginRight="38dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="20dp"
-                    android:elevation="30dp">
+                    android:elevation="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -121,78 +121,6 @@
                         />
                 </RelativeLayout>
 
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:background="@color/md_theme_dark_primary"
-                android:elevation="30dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center">
-                    <RelativeLayout
-                        android:id="@+id/test_text"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="test"
-                            android:textSize="20sp"
-                            android:layout_alignParentLeft="true"
-                            android:layout_marginLeft="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="view all"
-                            android:textSize="15sp"
-                            android:layout_alignParentRight="true"
-                            android:layout_marginRight="10dp"/>
-
-                    </RelativeLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="6dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:background="@color/active"
-                        android:orientation="vertical"
-                        android:alpha="0.4"
-                        android:padding="10dp">
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:background="@drawable/btn1"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"/>
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:background="@drawable/btn1"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="10dp"/>
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:background="@drawable/btn1"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="10dp">
-                        </ImageView>
-
-                    </LinearLayout>
-                </LinearLayout>
 
             </RelativeLayout>
 
@@ -230,8 +158,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="10dp"
                         android:background="@color/active"
                         android:orientation="vertical"
                         android:alpha="0.4"
@@ -239,6 +165,100 @@
 
                         <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/mostviewed_recylerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="most popular"
+                            android:layout_marginLeft="20dp"
+                            android:layout_alignParentLeft="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="view all"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"/>
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/active"
+                        android:orientation="horizontal"
+                        android:alpha="0.4"
+                        android:padding="10dp">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="most popular"
+                            android:layout_marginLeft="20dp"
+                            android:layout_alignParentLeft="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="view all"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"/>
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:background="@color/active"
+                        android:orientation="vertical"
+                        android:alpha="0.4"
+                        android:padding="10dp">
+
+                        <androidx.recyclerview.widget.RecyclerView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
