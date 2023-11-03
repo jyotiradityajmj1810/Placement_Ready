@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:padding="10dp">
         <ImageView
-            android:id="@+id/mostviewed_image"
+            android:id="@+id/videos_image"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginTop="2dp"
@@ -20,31 +20,33 @@
             android:scaleType="center"/>
 
         <TextView
-            android:id="@+id/mostviewed_title"
+            android:id="@+id/videos_title"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="Test 1"
             android:layout_marginTop="2dp"
             android:gravity="center"
-            android:textSize="20sp"/>
+            android:text="sfsf"
+            android:textSize="20sp" />
 
         <RatingBar
-            android:id="@+id/mostviewed_rating"
+            android:id="@+id/videos_rating"
             style="@style/Widget.AppCompat.RatingBar.Small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="4dp"
             android:rating="4.5" />
+
         <TextView
-            android:id="@+id/mostviewed_desc"
+            android:id="@+id/videos_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="dfghjkkfdffgf dgfhjkfgjgjgghjgjghghf fccgcccfghgh"
+            android:layout_marginTop="4dp"
             android:gravity="center"
             android:paddingTop="5dp"
-            android:layout_marginTop="4dp"
-            android:textSize="15sp"/>
+            android:text="dfghjkkfdffgf dgfhjkfgjgjgghjgjghghf fccgcccfghgh"
+            android:textColor="#000000"
+            android:textSize="15sp" />
 
 
 
