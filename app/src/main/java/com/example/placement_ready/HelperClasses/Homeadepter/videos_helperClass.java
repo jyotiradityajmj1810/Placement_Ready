@@ -1,10 +1,9 @@
 package com.example.placement_ready.HelperClasses.Homeadepter;
 
-public class mostviewed_helperClass {
-
+public class videos_helperClass {
     int image;
     String title,discreption;
-    public mostviewed_helperClass(int image, String title, String discreption) {
+    public videos_helperClass(int image, String title, String discreption) {
         this.image = image;
         this.title = title;
         this.discreption = discreption;
@@ -21,6 +20,4 @@ public class mostviewed_helperClass {
     public String getDiscreption() {
         return discreption;
     }
-
-
 }
