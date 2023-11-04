@@ -122,6 +122,4 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         return true;
 
     }
-
-
 }
