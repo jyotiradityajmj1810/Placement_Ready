@@ -42,7 +42,7 @@ FAQ Section
 
 Contains answers to frequently asked questions about the app, placements, and related topics.
 
-Tech Stack
+# Tech Stack
 Frontend: Java
 Backend: Spring
 
