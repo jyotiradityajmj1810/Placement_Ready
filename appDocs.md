@@ -1,0 +1,1 @@
+For a few Black techies, the bank’s presence in Austin left an awkward taste. A founder at the conference, who asked to remain anonymous, told me it felt “in poor taste” for the bank to throw a celebration at a Black tech conference like this. “That terrible fallout impacted so many Black founders who banked with them and had the rug pulled out from under their feet,” she said.
