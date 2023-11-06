@@ -16,13 +16,13 @@ public class AboutUsPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us_page);
 
-//        button_back =findViewById(R.id.back_home);
-//        button_back.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                AboutUsPage.super.onBackPressed();
-//            }
-//        });
+        button_back =findViewById(R.id.back_home);
+        button_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AboutUsPage.super.onBackPressed();
+            }
+        });
 
     }
 }
