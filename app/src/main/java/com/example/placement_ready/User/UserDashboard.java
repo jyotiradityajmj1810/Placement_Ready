@@ -1,7 +1,5 @@
 package com.example.placement_ready.User;
 
-import static com.example.placement_ready.R.id.drawer_layout;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
@@ -15,7 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 import com.example.placement_ready.HelperClasses.Homeadepter.mostviewed_Adepter;
 import com.example.placement_ready.HelperClasses.Homeadepter.mostviewed_helperClass;
@@ -122,9 +119,8 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id==R.id.nav_aboutus){
-            Intent intent=new Intent(getApplicationContext(),AboutUsPage.class);
+            Intent intent=new Intent(getApplicationContext(), AboutUs.class);
             startActivity(intent);
-            return true;
         }
         return true;
 

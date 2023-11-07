@@ -21,9 +21,9 @@ public class SliderAdepter extends PagerAdapter {
         this.context = context;
     }
     int[] images ={
-            R.drawable.fvdcs,
-            R.drawable.dcm,
-            R.drawable.pngegg
+            R.drawable.onbordinging1,
+            R.drawable.onbordingimg2,
+            R.drawable.dcm
     };
     int[] heading={
             R.string.onbording_hed1,
