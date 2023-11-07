@@ -20,7 +20,6 @@ import com.example.placement_ready.User.UserDashboard;
 
 public class OnBoarding extends AppCompatActivity {
 
-
     ViewPager viewPager;
     LinearLayout dotsLayout;
     SliderAdepter sliderAdapter;

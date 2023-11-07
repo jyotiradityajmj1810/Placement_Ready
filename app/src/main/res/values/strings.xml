@@ -6,13 +6,13 @@
 
     <string name="lets_get_started">LETS GET STARTED</string>
 
-    <string name="onbording_hed1">asdfg</string>
-    <string name="onbording_hed2">qwee</string>
-    <string name="onbording_hed3">mnbv</string>
+    <string name="onbording_hed1">Empower Your Career in Computer Science</string>
+    <string name="onbording_hed2">Interactive Learning at Your Fingertips</string>
+    <string name="onbording_hed3">Your Career Path, Our Priority</string>
 
-    <string name="onbording_des1">dhskjhjgkdsaglhjkdfsgfhjdljghsfd</string>
-    <string name="onbording_des2">jhkjfgdjlgjfldjkfdgjkdffjdkhjfkdghjkgfd</string>
-    <string name="onbording_des3">fgdfgfhkjhsfjsgffbdncnmbmnvbvmn</string>
-    <string name="about_us">fgdfgfhkjhsfjsgffbdncnmbmnvbvmn</string>
+    <string name="onbording_des1">Join CareerBoost, your gateway to success in the world of computer science. With a personalized approach, connect with skilled instructors, access a wealth of video resources, and stay ahead with regular updates on new courses, sections, and industry trends. Let\'s begin your journey toward a thriving career in tech !</string>
+    <string name="onbording_des2">Discover the power of interactive learning! Engage with teachers through comprehensive charts, dive into a repository of video resources, and gauge your progress through online assessments. Stay updated with the latest course offerings and industry advancements. Let’s amplify your learning experience together!</string>
+    <string name="onbording_des3">We\'re committed to your success! Receive regular updates about new courses, fresh sections, and pivotal industry insights. Prepare through online tests, access a vast library of video resources, and connect with expert instructors. Get ready to shape your future in the ever-evolving world of computer science.</string>
+    <string name="about_us">Placement Ready is committed to empowering students in their pursuit of a career in computer science. We offer a comprehensive platform connecting students with experienced educators through interactive charts, providing a vast repository of video resources, conducting online tests, and ensuring regular updates on the latest sections and courses. Our mission is to guide and equip students for successful placements in the field of computer science.</string>
 
 </resources>

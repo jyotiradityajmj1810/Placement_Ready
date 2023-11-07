@@ -35,8 +35,8 @@ public class SplashScreen extends AppCompatActivity {
         LottieAnimationView lottieAnimationView = findViewById(R.id.ani);
         lottieAnimationView.setAnimation(R.raw.ww);
 
-        appback1.animate().translationY(-3000).setDuration(770).setStartDelay(2600);
-        appback2.animate().translationY(-3000).setDuration(770).setStartDelay(2600);
+        appback1.animate().translationY(-3500).setDuration(770).setStartDelay(2600);
+        appback2.animate().translationY(-3500).setDuration(770).setStartDelay(2600);
         applogo.animate().translationY(-3000).setDuration(770).setStartDelay(2600);
         appname.animate().translationY(3000).setDuration(770).setStartDelay(2600);
         lottieAnimationView.animate().translationY(3000).setDuration(770).setStartDelay(2600);
@@ -62,7 +62,7 @@ public class SplashScreen extends AppCompatActivity {
             }
 
 
-        },3100 );
+        },3110 );
 
     }
 
