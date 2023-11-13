@@ -17,8 +17,8 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_edit"
-                    android:title="Edit"
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
                     android:icon="@drawable/baseline_edit_24"/>
                 <item
                     android:id="@+id/nav_logout"
