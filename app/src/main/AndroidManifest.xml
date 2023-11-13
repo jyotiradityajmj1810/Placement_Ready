@@ -13,6 +13,16 @@
         android:theme="@style/Theme.PLACEMENT_READY"
         tools:targetApi="31">
         <activity
+            android:name=".User.Profile"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.PLACEMENT_READY" />
+        <activity
+            android:name=".User.Info"
+            android:exported="false"
+            android:label="@string/title_activity_info"
+            android:theme="@style/Theme.PLACEMENT_READY" />
+        <activity
             android:name=".User.UserDashboard"
             android:exported="false" />
         <activity
