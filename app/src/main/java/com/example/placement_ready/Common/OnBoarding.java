@@ -64,8 +64,6 @@ public class OnBoarding extends AppCompatActivity {
             }
         });
 
-
-
     }
     public void login_signup(View view) {
 
