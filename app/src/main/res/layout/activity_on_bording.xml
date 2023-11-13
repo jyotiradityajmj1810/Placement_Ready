@@ -55,6 +55,7 @@
             android:layout_height="wrap_content"
             android:theme="@style/navigationTheme"
             android:text="Lets get started"
+            android:onClick="login_signup"
             android:textColor="#9360F1"
             android:background="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
