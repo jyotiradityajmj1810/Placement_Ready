@@ -2,6 +2,7 @@ package com.example.placement_ready.User;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -30,6 +31,8 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         binding = ActivityTestBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+
+
         drawerLayout = findViewById(R.id.drawer_layout);
         menuIcon = findViewById(R.id.menu_icon);
         navigationView = findViewById(R.id.navigation_view);
@@ -43,6 +46,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
             int id = item.getItemId();
             if (id == R.id.home) {
                 replaceFragment(new HomeFragment());
+                return true;
             } else if (id == R.id.chat) {
                 replaceFragment(new ChartFragment());
                 return true;
