@@ -30,4 +30,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="lavender">#8692f7</color>
     <color name="active">#50C2C9</color>
+    <color name="colorPrimary">#9360F1</color>
+    <color name="colorPrimaryDark">#5550ED</color>
+    <color name="colorAccent">@color/black</color>
 </resources>

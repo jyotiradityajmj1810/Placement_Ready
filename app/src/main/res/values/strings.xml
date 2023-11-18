@@ -58,5 +58,7 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="title_activity_profile">Profile</string>
+    <string name="enter_username">Enter UserName</string>
+    <string name="enter_password">Enter_password</string>
 
 </resources>

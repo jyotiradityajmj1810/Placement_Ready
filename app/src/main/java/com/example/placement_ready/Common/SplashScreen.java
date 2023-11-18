@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.example.placement_ready.Common.LoginSignup.Login;
 import com.example.placement_ready.R;
 import com.example.placement_ready.User.UserDashboard;
 
@@ -56,7 +57,7 @@ public class SplashScreen extends AppCompatActivity {
 
             }
             else {
-                Intent intent = new Intent(getApplicationContext(), UserDashboard.class);
+                Intent intent = new Intent(getApplicationContext(), Login.class);
                 startActivity(intent);
                 finish();
             }
