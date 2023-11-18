@@ -181,11 +181,11 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:background="@drawable/cards3"
-                            android:orientation="horizontal"
+                            android:orientation="vertical"
                             android:padding="5dp">
 
                             <androidx.recyclerview.widget.RecyclerView
-                                android:id="@+id/_recylerView"
+                                android:id="@+id/test_recylerView"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content" />
 

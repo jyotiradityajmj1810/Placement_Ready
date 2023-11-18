@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="190dp"
-    android:layout_height="250dp"
+    android:layout_width="160dp"
+    android:layout_height="180dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
     app:cardElevation="8dp"
@@ -10,13 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center">
         <ImageView
             android:id="@+id/videos_image"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
             android:layout_marginTop="2dp"
-            android:src="@drawable/btn1"
+            android:src="@drawable/login_img"
             android:scaleType="center"/>
 
         <TextView
@@ -44,7 +46,8 @@
             android:layout_marginTop="4dp"
             android:gravity="center"
             android:paddingTop="5dp"
-            android:text="dfghjkkfdffgf dgfhjkfgjgjgghjgjghghf fccgcccfghgh"
+            android:text="React"
+            android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="15sp" />
 
