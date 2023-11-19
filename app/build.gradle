@@ -48,8 +48,7 @@ dependencies {
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
     implementation 'com.google.android.material:material:1.10.0'
     implementation 'com.hbb20:ccp:2.3.1'
-
-
+    implementation 'com.googlecode.libphonenumber:libphonenumber:8.12.25'
 
 
 }
