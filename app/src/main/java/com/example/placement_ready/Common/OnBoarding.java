@@ -59,7 +59,6 @@ public class OnBoarding extends AppCompatActivity {
         skipButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Assuming you want to skip to the third page
                 viewPager.setCurrentItem(2);
             }
         });
