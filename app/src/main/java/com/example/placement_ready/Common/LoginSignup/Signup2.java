@@ -22,4 +22,9 @@ public class Signup2 extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+    public void next (View view){
+        Intent intent =new Intent(getApplicationContext(), Signup3.class);
+        startActivity(intent);
+        finish();
+    }
 }
