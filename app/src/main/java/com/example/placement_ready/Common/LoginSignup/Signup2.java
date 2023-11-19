@@ -9,21 +9,15 @@ import android.view.WindowManager;
 
 import com.example.placement_ready.R;
 
-public class StartUpScreen extends AppCompatActivity {
+public class Signup2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start_up_screen);
+        setContentView(R.layout.activity_app_signup2);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
-    public void login_screen (View view){
-        Intent intent =new Intent(getApplicationContext(), Login.class);
-        startActivity(intent);
-        finish();
-    }
-
-    public void signup_screen (View view){
+    public void back_btn (View view){
         Intent intent =new Intent(getApplicationContext(), Signup.class);
         startActivity(intent);
         finish();
