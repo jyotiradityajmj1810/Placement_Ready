@@ -103,6 +103,27 @@
                         android:textColorHint="#000000"
                         tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
                 </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:hint="Enter Email ID"
+                    android:textColorHint="@color/black"
+                    app:boxStrokeColor="@color/black"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/black"
+                    app:startIconDrawable="@drawable/baseline_mail_outline_24"
+                    app:startIconTint="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textColorHint="#000000"
+                        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
@@ -126,27 +147,7 @@
                         tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="20dp"
-                    android:hint="Enter Phone Number"
-                    android:textColorHint="@color/black"
-                    app:boxStrokeColor="@color/black"
-                    app:boxStrokeWidthFocused="2dp"
-                    app:endIconMode="clear_text"
-                    app:endIconTint="@color/black"
-                    app:startIconDrawable="@drawable/baseline_contact_phone_24"
-                    app:startIconTint="@color/black">
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:inputType="textEmailAddress"
-                        android:textColor="@color/black"
-                        android:textColorHint="#000000"
-                        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
-                </com.google.android.material.textfield.TextInputLayout>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
