@@ -13,6 +13,17 @@
         android:theme="@style/Theme.PLACEMENT_READY"
         tools:targetApi="31">
         <activity
+            android:name=".Common.LoginSignup.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.OtpValidation"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.OtpVarification"
+            android:exported="false"
+            android:label="@string/title_activity_otp_varification"
+            android:theme="@style/Theme.PLACEMENT_READY" />
+        <activity
             android:name=".Common.LoginSignup.Signup3"
             android:exported="false" />
         <activity
