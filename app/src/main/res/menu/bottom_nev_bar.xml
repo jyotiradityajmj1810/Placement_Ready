@@ -9,20 +9,16 @@
         android:id="@+id/chat"
         android:icon="@drawable/baseline_chat_24"
         android:title="CHART"/>
-    <item
-        android:id="@+id/setting"
-        android:icon="@drawable/baseline_accounts_settings_24"
-        android:title="SETTING"/>
+<!--    <item-->
+<!--        android:id="@+id/setting"-->
+<!--        android:icon="@drawable/baseline_accounts_settings_24"-->
+<!--        android:title="SETTING"/>-->
 
     <item
         android:id="@+id/resorces"
         android:icon="@drawable/baseline_resorces_24"
         android:title="RESORCES"/>
 
-    <item
-        android:id="@+id/bookmark"
-        android:icon="@drawable/baseline_collections_bookmark_24"
-        android:title="BOOKMARK" />
 
 
 </menu>

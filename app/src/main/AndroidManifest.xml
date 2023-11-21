@@ -13,6 +13,21 @@
         android:theme="@style/Theme.PLACEMENT_READY"
         tools:targetApi="31">
         <activity
+            android:name=".User.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.pdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.Resource_video"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.ResetPasswordSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.NewPassword"
+            android:exported="false" />
+        <activity
             android:name=".Common.LoginSignup.ForgetPassword"
             android:exported="false" />
         <activity

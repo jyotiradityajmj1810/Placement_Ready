@@ -14,7 +14,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
+import com.example.placement_ready.Common.LoginSignup.Login;
 import com.example.placement_ready.R;
 import com.example.placement_ready.databinding.ActivityTestBinding;
 import com.google.android.material.navigation.NavigationView;
@@ -51,10 +53,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
                 replaceFragment(new ChartFragment());
                 return true;
             } else if (id == R.id.resorces) {
-                replaceFragment(new Resorses_fragement());
-                return true;
-            } else if (id == R.id.bookmark) {
-                replaceFragment(new BookmarkFragment());
+                replaceFragment(new ResoursesFragment());
                 return true;
             }
             return false;
@@ -101,10 +100,14 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
             Intent intent = new Intent(getApplicationContext(), Profile.class);
             startActivity(intent);
         }
-        else if (id == R.id.nav_info) {
-            Intent intent = new Intent(getApplicationContext(), Info.class);
+        else if (id == R.id.nav_logout) {
+            Toast.makeText(getApplicationContext(), "Logout", Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(getApplicationContext(), Login.class);
             startActivity(intent);
         }
+
+
         return true;
     }
 
