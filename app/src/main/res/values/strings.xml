@@ -63,5 +63,6 @@
     <string name="remember_me">Remember Me</string>
     <string name="forget_password">Forget Password</string>
     <string name="title_activity_otp_varification">OtpVarification</string>
+    <string name="reactdesc">React is a popular JavaScript library for building user interfaces. It enables developers to create interactive, efficient, and scalable web applications, making UI development more straightforward and efficient.</string>
 
 </resources>
