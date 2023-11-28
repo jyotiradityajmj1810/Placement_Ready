@@ -42,6 +42,9 @@ public class test_Adepter extends RecyclerView.Adapter<test_Adepter.testholder> 
         return testlocation.size();
     }
 
+    public interface OnItemClickListener {
+    }
+
     public static class testholder extends RecyclerView.ViewHolder{
         ImageView image;
         TextView title;

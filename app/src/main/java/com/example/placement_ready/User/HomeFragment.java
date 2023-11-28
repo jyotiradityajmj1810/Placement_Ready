@@ -1,6 +1,7 @@
 package com.example.placement_ready.User;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.widget.SearchView;
@@ -10,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
+
 import com.example.placement_ready.HelperClasses.Homeadepter.mostviewed_Adepter;
 import com.example.placement_ready.HelperClasses.Homeadepter.mostviewed_helperClass;
 import com.example.placement_ready.HelperClasses.Homeadepter.test_Adepter;
@@ -18,7 +21,7 @@ import com.example.placement_ready.HelperClasses.Homeadepter.videos_Adepter;
 import com.example.placement_ready.R;
 import java.util.ArrayList;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements mostviewed_Adepter.OnItemClickListener, test_Adepter.OnItemClickListener{
     RecyclerView mostviewed_recylerView,videos_recylerView,test_recylerView;
     RecyclerView.Adapter adapter;
 
@@ -84,11 +87,28 @@ public class HomeFragment extends Fragment {
         mostviewedlocation.add(new mostviewed_helperClass(R.drawable.cards,"kdfkd","dfsfsfsdfs"));
 
 
-        adapter = new mostviewed_Adepter(mostviewedlocation);
+        mostviewed_Adepter adapter = new mostviewed_Adepter(mostviewedlocation);
+        adapter.setOnItemClickListener(this); // Set the listener
         mostviewed_recylerView.setAdapter(adapter);
 
     }
 
+
+    @Override
+    public void onItemClick(mostviewed_helperClass item) {
+        // Example: Open a new activity when an item is clicked
+        Intent intent = new Intent(getActivity(), Resource_video.class);
+        // Pass any data to the new activity if needed
+        intent.putExtra("key", item.getYourData());
+        startActivity(intent);
+    }
+
+
+
+    public void onItemClick(test_helperClass item) {
+        // Example: Display a toast message with the item's title
+        Toast.makeText(getActivity(), "Clicked on item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
+    }
 
 
 }
