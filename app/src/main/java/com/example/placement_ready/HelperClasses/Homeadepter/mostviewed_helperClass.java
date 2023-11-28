@@ -23,4 +23,7 @@ public class mostviewed_helperClass {
     }
 
 
+    public String getYourData() {
+        return discreption;
+    }
 }
