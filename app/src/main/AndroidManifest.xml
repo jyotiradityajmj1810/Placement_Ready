@@ -70,9 +70,6 @@
             android:name=".User.AboutUs"
             android:exported="false" />
         <activity
-            android:name=".User.UserDashboard"
-            android:exported="false" />
-        <activity
             android:name=".Common.OnBoarding"
             android:exported="false" />
         <activity

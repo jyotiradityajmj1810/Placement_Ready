@@ -49,16 +49,16 @@ dependencies {
     implementation("com.airbnb.android:lottie:6.1.0")
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
-    implementation 'com.google.android.material:material:1.10.0'
-    implementation 'com.hbb20:ccp:2.3.1'
+    
+    // Country Code Picker
+    implementation 'com.hbb20:ccp:2.5.0'
+    
+    // Phone number validation
     implementation 'com.googlecode.libphonenumber:libphonenumber:8.12.25'
-    implementation 'com.chaos.view:pinview:1.4.3'
-    implementation 'com.google.firebase:firebase-auth:22.3.0'
-
-    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
-    implementation 'com.github.barteksc:android-pdf-viewer:3.1.0-beta.1'
-
-
-
-
+    
+    // PIN View
+    implementation 'io.github.chaosleung:pinview:1.4.4'
+    
+    // PDF Viewer
+    implementation 'com.github.mhiew:android-pdf-viewer:3.2.0-beta.1'
 }

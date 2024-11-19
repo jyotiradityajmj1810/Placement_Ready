@@ -7,14 +7,10 @@ buildscript {
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
-        maven { url ("https://jcenter.bintray.com") }
-
     }
     dependencies {
         classpath "com.android.tools.build:gradle:$agp_version"
         classpath 'com.google.gms:google-services:4.4.0'
-
-
     }
 }
 
@@ -23,23 +19,9 @@ allprojects {
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
-        maven { url ("https://jcenter.bintray.com") }
-        def githubProperties = new Properties()
-        githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
-        repositories {
-            maven {
-                name = "GitHubPackages"
-
-                url = uri("https://maven.pkg.github.com/Cuberto/liquid-swipe-android")
-                credentials {
-
-                    username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
-                    password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
-                }
-            }
-        }
-
-
     }
 }
 
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
+}
